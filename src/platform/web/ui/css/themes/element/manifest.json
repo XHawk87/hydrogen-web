@@ -16,7 +16,15 @@
                     "error-color": "#FF4B55",
                     "fixed-white": "#fff",
                     "room-badge": "#61708b",
-                    "link-color": "#238cf5"
+                    "link-color": "#238cf5",
+                    "usercolor1": "#368BD6",
+                    "usercolor2": "#AC3BA8",
+                    "usercolor3": "#03B381",
+                    "usercolor4": "#E64F7A",
+                    "usercolor5": "#FF812D",
+                    "usercolor6": "#2DC2C5",
+                    "usercolor7": "#5C56F5",
+                    "usercolor8": "#74D12C"
                 }
             },
             "dark": {
@@ -31,7 +39,15 @@
                     "error-color": "#FF4B55",
                     "fixed-white": "#fff",
                     "room-badge": "#61708b",
-                    "link-color": "#238cf5"
+                    "link-color": "#238cf5",
+                    "usercolor1": "#368BD6",
+                    "usercolor2": "#AC3BA8",
+                    "usercolor3": "#03B381",
+                    "usercolor4": "#E64F7A",
+                    "usercolor5": "#FF812D",
+                    "usercolor6": "#2DC2C5",
+                    "usercolor7": "#5C56F5",
+                    "usercolor8": "#74D12C"
                 }
             },
             "neko": {
@@ -48,7 +64,13 @@
                     "usercolor5": "#dcddde",
                     "usercolor6": "#dcddde",
                     "usercolor7": "#dcddde",
-                    "usercolor8": "#dcddde"
+                    "usercolor8": "#dcddde",
+                    "text-color": "#fff",
+                    "accent-color": "#03B381",
+                    "error-color": "#FF4B55",
+                    "fixed-white": "#fff",
+                    "room-badge": "#61708b",
+                    "link-color": "#238cf5"
                 }
             }
         }
