@@ -1,9 +1,17 @@
 {
-  "push": {
-    "appId": "io.element.hydrogen.web",
-    "gatewayUrl": "https://matrix.org",
-    "applicationServerKey": "BC-gpSdVHEXhvHSHS0AzzWrQoukv2BE7KzpoPO_FfPacqOo3l1pdqz7rSgmB04pZCWaHPz7XRe6fjLaC-WPDopM"
-  },
-  "defaultHomeServer": "matrix.org",
-  "bugReportEndpointUrl": "https://element.io/bugreports/submit"
+    "push": {
+        "appId": "io.element.hydrogen.web",
+        "gatewayUrl": "https://matrix.org",
+        "applicationServerKey": "BC-gpSdVHEXhvHSHS0AzzWrQoukv2BE7KzpoPO_FfPacqOo3l1pdqz7rSgmB04pZCWaHPz7XRe6fjLaC-WPDopM"
+    },
+    "defaultHomeServer": "https://matrix.hawks-haven.co.uk",
+    "bugReportEndpointUrl": "https://element.io/bugreports/submit",
+    "defaultTheme": {
+        "dark": "neko-dark",
+        "light": "element-light"
+    },
+    "themeManifests": [
+        "/assets/theme-element.json",
+        "/assets/theme-neko.json"
+    ]
 }

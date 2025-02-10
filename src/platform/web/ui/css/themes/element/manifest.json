@@ -21,7 +21,7 @@
             },
             "dark": {
                 "dark": true,
-                "default": true,
+                "default": false,
                 "name": "Dark",
                 "variables": {
                     "background-color-primary": "#21262b",
@@ -32,6 +32,23 @@
                     "fixed-white": "#fff",
                     "room-badge": "#61708b",
                     "link-color": "#238cf5"
+                }
+            },
+            "neko": {
+                "dark": true,
+                "default": true,
+                "name": "Neko",
+                "variables": {
+                    "background-color-primary": "#36393f",
+                    "background-color-secondary": "#404349",
+                    "usercolor1": "#dcddde",
+                    "usercolor2": "#dcddde",
+                    "usercolor3": "#dcddde",
+                    "usercolor4": "#dcddde",
+                    "usercolor5": "#dcddde",
+                    "usercolor6": "#dcddde",
+                    "usercolor7": "#dcddde",
+                    "usercolor8": "#dcddde"
                 }
             }
         }
