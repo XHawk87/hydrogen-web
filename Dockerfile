@@ -1,6 +1,11 @@
-FROM --platform=${BUILDPLATFORM} docker.io/node:alpine as builder
-RUN apk add --no-cache git python3 build-base
-RUN corepack enable
+FROM --platform=${BUILDPLATFORM} docker.io/node:alpine3.24 as builder
+RUN bash <<'END_RUN'
+set -e
+apk add --no-cache git python3 build-base
+npm install -g corepack
+corepack enable
+corepack prepare yarn@1.22.22 --activate
+END_RUN
 
 WORKDIR /app
 
