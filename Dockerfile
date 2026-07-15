@@ -1,6 +1,5 @@
 FROM --platform=${BUILDPLATFORM} docker.io/node:alpine3.24 as builder
-RUN bash <<'END_RUN'
-set -e
+RUN /bin/sh <<'END_RUN'
 apk add --no-cache git python3 build-base
 npm install -g corepack
 corepack enable
